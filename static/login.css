@@ -1,4 +1,4 @@
-body, h1, h2, p, ul, li {
+*{
     margin: 0;
     padding: 0;
 }
@@ -103,4 +103,8 @@ img{
 }
 .search-container input[type="submit"] {
     border-radius: 20px;
+}
+
+a:hover{
+    color:white;
 }
