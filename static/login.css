@@ -8,20 +8,23 @@ body {
 }
 
 header {
-    background-color: #b10000;
+    background-color: #00ffb7;
     color: #fff;
     padding: 20px;
 }
 
 header h1 {
-    margin-left:18cm;
-
+    margin-left:0cm;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    
 }
 
 nav ul {
     list-style-type: none;
-    margin-left: 16cm;
-    margin-top: 1cm;
+    margin-left:30cm;
+    margin-top: -1cm;
 }
 
 nav ul li {
@@ -30,8 +33,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration:underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
 }
 
 .main {
@@ -62,8 +67,40 @@ nav ul li a {
 }
 
 footer {
-    background-color: #b10000;
-    color: #fff;
+    background-color: #00ffb7;
+    color: #000000;
     text-align: center;
     padding: 20px;
+    margin-top: 5cm;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    padding-left: 1.2cm;
+}
+.logo_name{
+    padding-left: 2cm;
+}
+
+.login-container {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+.search-container {
+    position: absolute;
+    top: 18%;
+    left: 35%;
+}
+
+.search-container input[type="text"] {
+    width: 300px; 
+    padding: 10px;
+    border: 2px solid #656464;
+    border-radius: 20px;
+}
+.search-container input[type="submit"] {
+    border-radius: 20px;
 }
