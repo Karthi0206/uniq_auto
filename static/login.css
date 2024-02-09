@@ -215,7 +215,7 @@ a:hover{
 
 .product img{
   height: 5cm;
-  width: 7cm;
+  width: 8cm;
   padding-right: 0cm;
   padding-top: 0cm;
   padding-left: 0cm;
@@ -234,7 +234,60 @@ a:hover{
 }
 .price-detiles p{
   display: inline-block;
-  margin: 0 23px;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.zero-payment{
+  margin-right: 2.6cm;
+  font-size: small;
+  margin-top: 5px;
+}
+.location p{
+  margin-right: 2.5cm;
+  font-size: small;
+  margin-top:   20px;
+  margin-bottom: 1cm;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-suzuki {
+  margin: 20px;
+  text-align: center;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.product-suzuki h4{
+  margin-bottom: 15px;
+}
+
+.product-suzuki img{
+  height: 5cm;
+  width: 9cm;
+  padding-right: 0cm;
+  padding-top: 0cm;
+  padding-left: 0cm;
+  margin-bottom: 10px;
+}
+.bike-detiles p{
+  display: inline-block ;
+  border: solid rgb(215, 213, 213) 1px ;
+  background-color: rgb(215, 213, 213);
+  border-radius: 5px;
+  justify-content:space-evenly;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  margin: 0 6px;
+}
+.price-detiles p{
+  display: inline-block;
+  padding: 0 30px;
   margin-top: 20px;
 }
 .zero-payment{
