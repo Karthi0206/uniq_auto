@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My E-commerce Website</title>
-    <link rel="icon" href="..\static\Bike_logo2.png">
+    <title>Bike Ur Choice</title>
+    <link rel="icon" href="..\static\Bike logo.png">
     <link rel="stylesheet" href="..\static\login.css"> <!-- Link to your CSS file -->
 </head>
 
@@ -14,19 +14,12 @@
         <img src="..\static\bike_logo_2.png" alt="logo">
         <h1>BIKES UR</h1>
         <h1 class="logo_name">CHOICE</h1>
-
-        <div class="search-container">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
-        </div>
-
-
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Buy a bike</a></li>
+                <li><a href="#">Sell a bike</a></li>
+                <li><a href="#">Car Finance</a></li>
+                <li><a href="#"></a></li>
             </ul>
         </nav>
         <div class="login-container">
@@ -41,7 +34,26 @@
     </header>
     <hr>
     <main>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+
+        <div class="brand-container">
+            <img src="..\static\bajaj-logo.png" alt="logo">
+            <img src="..\static\ktm-logo.png" alt="logo">
+            <img src="..\static\re-logo.png" alt="logo">
+            <img src="..\static\tvs-logo.png" alt="logo">
+            <img src="..\static\bmw-logo.png" alt="logo">
+            <img src="..\static\yamaha-logo.png" alt="logo">
+        </div>
+
+
         <div class="products-container">
+            <div class="product-arrow">
+                <h1>Recently Added Bikes</h1>
+                <img src="..\static\arrow.png" alt="arrow">
+            </div>
             <!-- Product 1 -->
             <div class="product">
                 <img src="..\static\royal-enfield.jpg" alt="bike">
@@ -144,26 +156,6 @@
                 </div>
             </div>
 
-            <div class="product-suzuki">
-                <img src="..\static\suzuki-gixxer.png" alt="bike">
-                <h4>2018 Suzuki Gixxer </h4>
-                <div class="bike-detiles">
-                    <p>25,000 kms</p>
-                    <p>1st Owner</p>
-                    <p>TN-38</p>
-                </div>
-                <div class="price-detiles">
-                    <p>₹3,000/month</p>
-                    <p>₹80,000</p>
-                </div>
-                <div class="zero-payment">
-                    <p>zero down payment</p>
-                </div>
-                <div class="location">
-                    <p>📍Periyanayakkanapalayam,Coimbatore</p>
-                </div>
-            </div>
-
             <div class="product">
                 <img src="..\static\tvs-rr310.png" alt="bike">
                 <h4>2020 TVS RR310 </h4>
@@ -204,9 +196,42 @@
                 </div>
             </div>
             
-
         </div>
     </main>
+    <section class="chooseme-container">
+        <div>
+            <h1>Why Buy From US ?</h1>
+        </div>
+
+        <div class="chooseme">
+            <img src="..\static\warrenty.png" alt="">
+            <h3>1.BUC warranty</h3>
+            <p>Enjoy complete peace of mind <br>
+               with warranty plans up to 12 <br>
+               months to protect your bike.
+            </p>
+        </div>
+
+        <div class="chooseme">
+            <img src="..\static\happy-customer.png" alt="">
+            <h3>2. One Month Return</h3>
+            <p>Love it, keep it. <br>
+               Changed your mind? <br>
+               Return it within 7 days
+               for a full refund
+            </p>
+        </div>
+
+        <div class="chooseme">
+            <img src="..\static\easy-finance.png" alt="">
+            <h3>3.Easy Financing Option</h3>
+            <p>Become eligible for Zero Down <br>
+               Payment via EMIs of up to 72 <br>
+               months and instant loans
+            </p>
+        </div>
+
+    </section>
 
     <footer>
         <p>&copy; 2024 My E-commerce Website. All rights reserved.</p>
