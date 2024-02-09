@@ -89,22 +89,162 @@ img{
     right: 20px; 
 }
 
-.search-container {
-    position: absolute;
-    top: 18%;
-    left: 35%;
-}
-
-.search-container input[type="text"] {
-    width: 300px; 
-    padding: 10px;
-    border: 2px solid #656464;
-    border-radius: 20px;
-}
-.search-container input[type="submit"] {
-    border-radius: 20px;
-}
-
 a:hover{
     color:white;
+}
+
+.login-container button {
+  --primary-color: #645bff;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+}
+
+.login-container button .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container button .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.login-container button .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.login-container button:hover {
+  background-color: var(--hover-color);
+}
+
+.login-container button:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.login-container button:hover .arrow:before {
+  right: 0;
+}
+.search-container {
+  position: absolute;
+  top: 18%;
+  left: 35%;
+}
+.search-container input[type="text"] {
+  width: 300px; 
+  padding: 10px;
+  border: 2px solid #656464;
+  border-radius: 80px;
+}
+
+.search-container input[type="submit"] {
+  border-radius: 80px;
+}
+
+.search-container button {
+ --primary-color: #645bff;
+ --secondary-color: #fff;
+ --hover-color: #111;
+ --arrow-stroke: 2px;
+ box-sizing: border-box;
+ border: 0;
+ border-radius: 50px;
+ color: var(--secondary-color);
+ background: var(--primary-color);
+ transition: 0.2s background;
+ align-items: center;
+ gap: 0.6em;
+ font-weight: bold;
+ height: 40px;
+ width: 70px;
+}
+        
+.search-container button .arrow-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+    
+.search-container button:hover {
+  background-color: var(--hover-color);
+}
+     
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  margin: 20px;
+  text-align: center;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.product h4{
+  margin-bottom: 15px;
+}
+
+.product img{
+  height: 5cm;
+  width: 7cm;
+  padding-right: 0cm;
+  padding-top: 0cm;
+  padding-left: 0cm;
+  margin-bottom: 10px;
+}
+.bike-detiles p{
+  display: inline-block ;
+  border: solid rgb(215, 213, 213) 1px ;
+  background-color: rgb(215, 213, 213);
+  border-radius: 5px;
+  justify-content:space-evenly;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  margin: 0 6px;
+}
+.price-detiles p{
+  display: inline-block;
+  margin: 0 23px;
+  margin-top: 20px;
+}
+.zero-payment{
+  margin-right: 2.6cm;
+  font-size: small;
+  margin-top: 5px;
+}
+.location p{
+  margin-right: 2.5cm;
+  font-size: small;
+  margin-top:   20px;
+  margin-bottom: 1cm;
 }
