@@ -305,6 +305,10 @@ section .chooseme{
 .rating-container{
   margin-left: 1.5cm;
 }
+.rating-app{
+  margin-top: 1cm;
+  margin-right: 1cm;
+}
 .motivates {
   margin-top: 2cm;
 }
@@ -361,12 +365,6 @@ section .chooseme{
   margin-left: 11cm;
 }
 
-footer {
-  background:linear-gradient(180deg,#00ffb7,#94ffeb);
-  color: #000000;
-  padding: 40px 20px;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -379,7 +377,7 @@ footer {
   margin-right: 20px;
 }
 
-.footer-column h3 {
+.footer-column h2 {
   margin-bottom: 10px;
 }
 
@@ -404,4 +402,30 @@ footer {
 
 .footer-bottom p {
   font-size: 14px;
+  margin-top: 1cm;
+}
+
+.footer-column-1 h2{
+  padding-right: 3cm;
+} 
+
+.footer-column-1 h3{
+  margin-top: 1cm;
+}
+.footer-column-1 h4{
+  margin-top: 1cm;
+}
+.footer-column-1 img{
+  height: 50px;
+  width: auto;
+  margin-top: 1cm;
+}
+.footer-bottom a {
+  /* display: inline-block; */
+  margin-right: 10px; /* Adjust spacing between the images */
+}
+
+.footer-bottom img {
+  height: 50px; /* Adjust the height of the images */
+  width: auto; /* Maintain aspect ratio */
 }
