@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Bikes</title>
+    <style>
+        /* Add CSS styles as needed */
+    </style>
+</head>
+<body>
+    <h1>Registered Bikes</h1>
+    <div class="bikes-container">
+        {% for brand_details in data %}
+        <div class="bike">
+            <img src="data:image/jpg;base64,{{ brand_details[0] }}" alt="Bike Image" height="100px" width="100px">
+            <h2>{{ brand_details[2] }}</h2>
+            <p>ID: {{ brand_details[1] }}</p>
+            <p>Kilometers Driven: {{ brand_details[3] }}</p>
+            <p>Owner Details: {{ brand_details[4] }}</p>
+            <p>Register Details: {{ brand_details[5] }}</p>
+            <p>EMI Details: {{ brand_details[6] }}</p>
+            <p>Price: {{ brand_details[7] }}</p>
+            <p>Location Details: {{ brand_details[8] }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
