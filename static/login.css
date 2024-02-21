@@ -154,6 +154,13 @@ a:hover{
 .login-container button:hover .arrow:before {
   right: 0;
 }
+
+.search-brand{
+  background-image: url(bg-brand.png);
+  height: 10cm;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 .search-container {
   position: absolute;
   top: 18%;
@@ -198,7 +205,6 @@ a:hover{
 .search-container button:hover {
   background-color: var(--hover-color);
 }
-
 .product-arrow h1{
   color: white;
   padding-top: 4cm;
@@ -210,14 +216,15 @@ a:hover{
 }
 
 .brand-container img{
-  display: inline;
-  height: 50px;
-  width: 75px;
-  border-radius: 30px;
+  display: inline-block;
+  height: 80px;
+  width: 60px;
+  border-radius: 20px;
   margin-top: 4cm;
-  padding-left: 4cm;
+  margin-left: 2.5cm;
+  padding-right: 1cm;
+  background-color: white;
 }
-     
 .products-container {
   display: flex;
   flex-wrap: wrap;
