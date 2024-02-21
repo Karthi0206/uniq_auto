@@ -13,7 +13,7 @@
     <div class="bikes-container">
         {% for brand_details in data %}
         <div class="bike">
-            <img src="base64,{{ brand_details[0] }}" alt="Bike Image">
+            <img src="data:image/jpg;base64,{{ brand_details[0] }}" alt="Bike Image" height="100px" width="100px">
             <h2>{{ brand_details[2] }}</h2>
             <p>ID: {{ brand_details[1] }}</p>
             <p>Kilometers Driven: {{ brand_details[3] }}</p>
